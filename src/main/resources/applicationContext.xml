@@ -6,20 +6,24 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:property-placeholder location="classpath:myApp.properties"/>
 
     <bean id="dog"
-          class="ru.course.spring.spring_introduces.Dog">
+          class="ru.course.spring.config_xml.Dog"
+    scope="prototype">
     </bean>
     <bean id="cat"
-          class="ru.course.spring.spring_introduces.Cat">
+          class="ru.course.spring.config_xml.Cat"
+    init-method="init"
+    destroy-method="destroy">
     </bean>
 
     <bean id="person"
-    class="ru.course.spring.spring_introduces.Person">
+    class="ru.course.spring.config_xml.Person">
 <!--        <constructor-arg ref="cat"/>-->
-        <property name="pet" ref="dog"/>
-        <property name="surname" value="Grinko"/>
-        <property name="age" value="30"/>
+        <property name="pet" ref="cat"/>
+        <property name="surname" value="${person.surname}"/>
+        <property name="age" value="${person.age}" />
 
     </bean>
 

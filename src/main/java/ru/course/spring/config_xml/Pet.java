@@ -1,4 +1,4 @@
-package ru.course.spring.spring_introduces;
+package ru.course.spring.config_xml;
 
 public interface Pet {
     public void say();

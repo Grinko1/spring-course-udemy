@@ -5,21 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3df688a5-5137-4e14-820b-f2a8b13c7516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/course/spring/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/course/spring/spring_introduces/DogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/LibraryAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/LibrarySchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/LibraryUniver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/aspects/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/aspects/MyPointcuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/aop/aspects/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_annotations/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_annotations/ConfigWithAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_annotations/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_annotations/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_annotations/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_annotations/TestScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_with_java/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_with_java/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_with_java/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_with_java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_with_java/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_with_java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myApp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_xml/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_xml/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_xml/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_xml/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/course/spring/spring_introduces/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/course/spring/config_xml/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/course/spring/spring_introduces/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/course/spring/config_xml/DogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +54,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bcIDUcZUAE1fMpmWZzcOkiXdp3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,12 +72,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConfigWithAnnotations.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TestScope.executor": "Run",
+    "Application.ru.course.spring.aop.Test.executor": "Run",
+    "Application.ru.course.spring.aspect_oriented_programm.Test.executor": "Run",
+    "Application.ru.course.spring.config_with_java.Test.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,13 +91,65 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.course.spring.spring_introduces.Test" />
+  <component name="RunManager" selected="Application.ru.course.spring.aop.Test">
+    <configuration name="ConfigWithAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.course.spring.config_annotations.ConfigWithAnnotations" />
       <module name="spring-udemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.course.spring.spring_introduces.*" />
+          <option name="PATTERN" value="ru.course.spring.config_annotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.course.spring.config_xml.Test" />
+      <module name="spring-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.course.spring.config_xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.course.spring.config_annotations.TestScope" />
+      <module name="spring-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.course.spring.config_annotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.course.spring.aop.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.course.spring.aop.Test" />
+      <module name="spring-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.course.spring.aop.aspects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.course.spring.config_with_java.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.course.spring.config_with_java.Test" />
+      <module name="spring-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.course.spring.config_with_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.course.spring.aop.Test" />
+        <item itemvalue="Application.ru.course.spring.config_with_java.Test" />
+        <item itemvalue="Application.TestScope" />
+        <item itemvalue="Application.ConfigWithAnnotations" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
