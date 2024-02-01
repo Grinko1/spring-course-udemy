@@ -1,21 +1,57 @@
 package ru.course.spring.aop.aspects;
 
 
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.reflect.MethodSignature;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
+import ru.course.spring.aop.Book;
 
 @Component
 @Aspect
+@Order(10)
 public class  LoggingAspect {
 
 
 
-    @Before("MyPointcuts.allGetMethods()")
-    public void BeforeGetMethodAdvice(){
+    @Before("MyPointcuts.allAddMethods()")
+    public void BeforeAddMethodAdvice(JoinPoint joinPoint){
+//
+//        MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
+//        System.out.println("methodSignature: "+ methodSignature);
+//        System.out.println("methodSignature method: "+ methodSignature.getMethod());
+//        System.out.println("methodSignature return type: "+ methodSignature.getReturnType());
+//        System.out.println("methodSignature name: "+ methodSignature.getName());
         System.out.println("Logging getting methods");
+//        System.out.println("********params*******");
+//        if(methodSignature.getName().equals("addBook")){
+//             Object[] arguments= joinPoint.getArgs();
+//             for (Object obj : arguments){
+//                 if(obj instanceof Book){
+//                     Book book = (Book) obj;
+//                     System.out.println("Book info: name - "+ book.getName() + ", author - " + book.getAuthor()+", publication - " + book.getYearOfPublication());
+//                 } else if (obj instanceof String) {
+//                     System.out.println("add student: "+ obj);
+//
+//                 }
+//
+//             }
+//        }else{
+//            System.out.println("No params");
+//        }
+//        System.out.println("********end params*******");
+        System.out.println("----------------------------------");
     }
+
+@AfterReturning("MyPointcuts.allAddMethods()")
+    public void afterReturningAddMethod(){
+    System.out.println("^^^^^^^^ completed successfully ^^^^^^^^");
+    System.out.println("----------------------------------");
+}
+
 
 
 //    @Pointcut("execution(* *(..))")

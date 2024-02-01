@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-@Order(20)
-public class SecurityAspect {
+@Order(30 )
+public class ExceptionHandlingAspect {
     @Before("MyPointcuts.allAddMethods()")
-    public void BeforeAddSecurityAdvice(){
-        System.out.println("Check security getting methods");
+    public void beforeExceptionAddMethodsAdvice(){
+        System.out.println("check exception");
         System.out.println("----------------------------------");
     }
 }
